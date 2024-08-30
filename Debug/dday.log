@@ -1,0 +1,118 @@
+﻿Compilación iniciada a las 16-07-2011 22:45:56.
+     1>Proyecto "C:\5.40 chilensi\dday.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará ".\Debug\dday.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W2 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TC /analyze- /errorReport:prompt src\g_weapon.c
+         g_weapon.c
+         Todas las salidas están actualizadas.
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\5.40 chilensi\.\Debug\dday.dll) no coincide con el valor de la propiedad OutputFile de Linker (C:\games\quake2\dday\gamex86.dll). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Link.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(dday) no coincide con el valor de la propiedad OutputFile de Linker (gamex86). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Link.OutputFile).
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\games\quake2\dday\gamex86.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\src\game.def" /MANIFEST /ManifestFile:".\Debug\dday.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/gamex86.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug/gamex86.lib" /MACHINE:X86 /DLL .\Debug/g_ai.obj
+         .\Debug/g_arty.obj
+         .\Debug/g_cmds.obj
+         .\Debug/g_combat.obj
+         .\Debug/g_ents.obj
+         .\Debug/g_func.obj
+         .\Debug/g_items.obj
+         .\Debug/g_main.obj
+         .\Debug/g_maps.obj
+         .\Debug/g_misc.obj
+         .\Debug/g_monster.obj
+         .\Debug/g_objectives.obj
+         .\Debug/g_phys.obj
+         .\Debug/g_save.obj
+         .\Debug/g_spawn.obj
+         .\Debug/g_svcmds.obj
+         .\Debug/g_target.obj
+         .\Debug/g_trigger.obj
+         .\Debug/g_turret.obj
+         .\Debug/g_utils.obj
+         .\Debug/g_weapon.obj
+         .\Debug/m_actor.obj
+         .\Debug/m_civilian.obj
+         .\Debug/m_flash.obj
+         .\Debug/m_insane.obj
+         .\Debug/m_move.obj
+         .\Debug/p_classes.obj
+         .\Debug/p_client.obj
+         .\Debug/p_generic_wep.obj
+         .\Debug/p_hud.obj
+         .\Debug/p_menu.obj
+         .\Debug/p_observer.obj
+         .\Debug/p_trail.obj
+         .\Debug/p_view.obj
+         .\Debug/p_weapon.obj
+         .\Debug/q_shared.obj
+         .\Debug/u_entmgr.obj
+         .\Debug/x_fbomb.obj
+         .\Debug/x_fire.obj
+         .\Debug/usa_guninfo.obj
+         .\Debug/Usa_item.obj
+         .\Debug/Usa_main.obj
+         .\Debug/usa_spawn.obj
+         .\Debug/usa_weapon.obj
+         .\Debug/grm_guninfo.obj
+         .\Debug/Grm_item.obj
+         .\Debug/Grm_main.obj
+         .\Debug/grm_spawn.obj
+         .\Debug/grm_weapon.obj
+         .\Debug/rus_guninfo.obj
+         .\Debug/Rus_item.obj
+         .\Debug/Rus_main.obj
+         .\Debug/rus_spawn.obj
+         .\Debug/rus_weapon.obj
+         .\Debug/gbr_guninfo.obj
+         .\Debug/Gbr_item.obj
+         .\Debug/Gbr_main.obj
+         .\Debug/gbr_spawn.obj
+         .\Debug/gbr_weapon.obj
+         .\Debug/pol_guninfo.obj
+         .\Debug/Pol_item.obj
+         .\Debug/Pol_main.obj
+         .\Debug/pol_spawn.obj
+         .\Debug/pol_weapon.obj
+         .\Debug/ita_guninfo.obj
+         .\Debug/Ita_item.obj
+         .\Debug/Ita_main.obj
+         .\Debug/ita_spawn.obj
+         .\Debug/ita_weapon.obj
+         .\Debug/jpn_guninfo.obj
+         .\Debug/Jpn_item.obj
+         .\Debug/Jpn_main.obj
+         .\Debug/jpn_spawn.obj
+         .\Debug/jpn_weapon.obj
+         .\Debug/usm_guninfo.obj
+         .\Debug/Usm_item.obj
+         .\Debug/Usm_main.obj
+         .\Debug/usm_spawn.obj
+         .\Debug/usm_weapon.obj
+         .\Debug/ai_class_dmbot.obj
+         .\Debug/ai_dropnodes.obj
+         .\Debug/ai_items.obj
+         .\Debug/ai_links.obj
+         .\Debug/ai_main.obj
+         .\Debug/ai_movement.obj
+         .\Debug/ai_navigation.obj
+         .\Debug/ai_nodes.obj
+         .\Debug/ai_tools.obj
+         .\Debug/ai_weapons.obj
+         .\Debug/AStar.obj
+         .\Debug/bot_common.obj
+         .\Debug/bot_spawn.obj
+     1>g_ai.obj : warning LNK4075: se omite '/EDITANDCONTINUE' debido a la especificación '/INCREMENTAL:NO'
+            Creando biblioteca .\Debug/gamex86.lib y objeto .\Debug/gamex86.exp
+         dday.vcxproj -> C:\5.40 chilensi\.\Debug\dday.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\games\quake2\dday\gamex86.dll;#2" /manifest .\Debug\dday.dll.intermediate.manifest
+       BscMake:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug\dday.bsc" .\Debug\g_ai.sbr .\Debug\g_arty.sbr .\Debug\g_cmds.sbr .\Debug\g_combat.sbr .\Debug\g_ents.sbr .\Debug\g_func.sbr .\Debug\g_items.sbr .\Debug\g_main.sbr .\Debug\g_maps.sbr .\Debug\g_misc.sbr .\Debug\g_monster.sbr .\Debug\g_objectives.sbr .\Debug\g_phys.sbr .\Debug\g_save.sbr .\Debug\g_spawn.sbr .\Debug\g_svcmds.sbr .\Debug\g_target.sbr .\Debug\g_trigger.sbr .\Debug\g_turret.sbr .\Debug\g_utils.sbr .\Debug\g_weapon.sbr .\Debug\m_actor.sbr .\Debug\m_civilian.sbr .\Debug\m_flash.sbr .\Debug\m_insane.sbr .\Debug\m_move.sbr .\Debug\p_classes.sbr .\Debug\p_client.sbr .\Debug\p_generic_wep.sbr .\Debug\p_hud.sbr .\Debug\p_menu.sbr .\Debug\p_observer.sbr .\Debug\p_trail.sbr .\Debug\p_view.sbr .\Debug\p_weapon.sbr .\Debug\q_shared.sbr .\Debug\u_entmgr.sbr .\Debug\x_fbomb.sbr .\Debug\x_fire.sbr .\Debug\usa_guninfo.sbr .\Debug\Usa_item.sbr .\Debug\Usa_main.sbr .\Debug\usa_spawn.sbr .\Debug\usa_weapon.sbr .\Debug\grm_guninfo.sbr .\Debug\Grm_item.sbr .\Debug\Grm_main.sbr .\Debug\grm_spawn.sbr .\Debug\grm_weapon.sbr .\Debug\rus_guninfo.sbr .\Debug\Rus_item.sbr .\Debug\Rus_main.sbr .\Debug\rus_spawn.sbr .\Debug\rus_weapon.sbr .\Debug\gbr_guninfo.sbr .\Debug\Gbr_item.sbr .\Debug\Gbr_main.sbr .\Debug\gbr_spawn.sbr .\Debug\gbr_weapon.sbr .\Debug\pol_guninfo.sbr .\Debug\Pol_item.sbr .\Debug\Pol_main.sbr .\Debug\pol_spawn.sbr .\Debug\pol_weapon.sbr .\Debug\ita_guninfo.sbr .\Debug\Ita_item.sbr .\Debug\Ita_main.sbr .\Debug\ita_spawn.sbr .\Debug\ita_weapon.sbr .\Debug\jpn_guninfo.sbr .\Debug\Jpn_item.sbr .\Debug\Jpn_main.sbr .\Debug\jpn_spawn.sbr .\Debug\jpn_weapon.sbr .\Debug\usm_guninfo.sbr .\Debug\Usm_item.sbr .\Debug\Usm_main.sbr .\Debug\usm_spawn.sbr .\Debug\usm_weapon.sbr .\Debug\ai_class_dmbot.sbr .\Debug\ai_dropnodes.sbr .\Debug\ai_items.sbr .\Debug\ai_links.sbr .\Debug\ai_main.sbr .\Debug\ai_movement.sbr .\Debug\ai_navigation.sbr .\Debug\ai_nodes.sbr .\Debug\ai_tools.sbr .\Debug\ai_weapons.sbr .\Debug\AStar.sbr .\Debug\bot_common.sbr .\Debug\bot_spawn.sbr
+       FinalizeBuildStatus:
+         Se eliminará el archivo ".\Debug\dday.unsuccessfulbuild".
+         Aplicando tarea Touch a ".\Debug\dday.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\5.40 chilensi\dday.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:08.25

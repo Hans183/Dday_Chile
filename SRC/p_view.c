@@ -2640,10 +2640,10 @@ void ClientEndServerFrame (edict_t *ent)
 	//hans incrementa stamina x10 (antes era por 5)
 	    if (ent->client->jump_stamina < JUMP_MAX)
 		{
-			ent->client->jump_stamina += JUMP_REGEN * 10;
+			ent->client->jump_stamina += JUMP_REGEN * 12;
 
 			if (ent->ai)
-				ent->client->jump_stamina += JUMP_REGEN * 10;
+				ent->client->jump_stamina += JUMP_REGEN * 12;
 		}
 
 

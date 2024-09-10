@@ -1919,11 +1919,14 @@ void fire_rocket (edict_t *self, vec3_t start, vec3_t dir, int damage, int speed
 		rocket->nextthink = rocket->nextthink = level.time + 8000/speed;
 		rocket->think = G_FreeEdict;
 	}
+	//Nuevos valores al da�o del rocket --- Hans
 
-
-	rocket->dmg = damage;
-	rocket->radius_dmg = radius_damage;
-	rocket->dmg_radius = damage_radius;
+	//rocket->dmg = damage;
+	rocket->dmg = 400;
+	//rocket->radius_dmg = radius_damage;
+	rocket->radius_dmg = 300;
+	//rocket->dmg_radius = damage_radius;
+	rocket->dmg_radius = 200;
 	rocket->s.sound = gi.soundindex ("weapons/rockfly.wav");
 	rocket->classname = "rocket";
 	rocket->classnameb = ROCKET;

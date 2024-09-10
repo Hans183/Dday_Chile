@@ -64,9 +64,9 @@ implemented it yet? */
 
 #define MAX_OFFICERS		1
 #define MAX_INFANTRY		99
-#define MAX_L_GUNNER		2
+#define MAX_L_GUNNER		3
 #define MAX_H_GUNNER		2
-#define MAX_SNIPER			2
+#define MAX_SNIPER			3
 #define MAX_SPECIAL			1
 #define MAX_ENGINEER		1
 #define MAX_MEDIC			4

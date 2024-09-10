@@ -683,11 +683,11 @@ void Use_Weapon (edict_t *ent, gitem_t *item)
 		*/
 
 		//pbowens: allows player to switch to empty gun now
-/*		if (!ent->client->pers.inventory[ammo_index] && !item_rounds)
+		if (!ent->client->pers.inventory[ammo_index] && !item_rounds)
 		{
 			safe_cprintf (ent, PRINT_HIGH, "No magazines or clips for %s.\n", item->pickup_name);
 			//return;
-		}*/
+		}
 
 	}
 

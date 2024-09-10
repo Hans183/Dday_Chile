@@ -1,4 +1,4 @@
-D-DAY: NORMANDY BETA SOURCE RELEASE-4-1
+D-DAY: NORMANDY BETA SOURCE RELEASE 5.0.4 Version Chile
 
 This is the D-Day: Normandy source for version 4.1. It is released under the GPL, a "copyleft" license, that is included in the release as gnu.txt. Basically, you can edit and compile this source to your liking, but if you release any binaries, or any part of the source, the rest of the source, these files, and the license must all be included. Make sure you read the license to better understand the terms.
 

@@ -1054,8 +1054,7 @@ void A_ScoreboardMessage2 (edict_t *ent)//, edict_t *killer)
 					strcat (string,		"xv 164   yv 67 string  \"Player   Acrcy% +/-\" ");//faf
 				}
 		
-
-
+			
 			// pbowens: team victory pix
 			if (level.intermissiontime && Last_Team_Winner != 99 &&
 				Last_Team_Winner != -1) 

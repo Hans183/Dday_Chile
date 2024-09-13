@@ -1036,9 +1036,9 @@ if (!chile->value)
 		}
 	}*/
 
-	if (ent->client->ps.fov == SCOPE_FOV)
+	//if (ent->client->ps.fov == SCOPE_FOV)
 //		SV_AddBlend (0.0, 0.0, 0.25, .1, ent->client->ps.blend);//faf:  blue tinge
-		SV_AddBlend (0.0, 0.0, 0.0, .1, ent->client->ps.blend); //Hans sin cosas azules
+	//	SV_AddBlend (0.0, 0.0, 0.0, .1, ent->client->ps.blend); //Hans sin cosas azules
 //		SV_AddBlend (0.0, 0.0, 0.0, .1 + (xyspeed/1000), ent->client->ps.blend);
 		//end faf
 

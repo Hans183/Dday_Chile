@@ -940,8 +940,8 @@ void CheckDMRules (void)
 		edict_t     *grmflag;
 		edict_t     *e;
 
-		if (level.time == level.ctb_time)
-			gi.bprintf (PRINT_HIGH, "Timelimit hit!\n");
+				if (level.time == level.ctb_time)
+			gi.bprintf (PRINT_HIGH, "Timelimit hit! CTB \n");
 
 		if (level.time == level.ctb_time + 1)
 			gi.bprintf (PRINT_HIGH, "Next team to bring the briefcase to their base wins!\n");
@@ -1194,6 +1194,11 @@ void CheckDMRules (void)
 
 	if (timelimit->value)
 	{
+		if (level.time - timelimit->value*60 >= 5)  // hans, agrega un aviso 5 minutos antes del time limit
+		{
+			//gi.sound(ent CHAN_AUTO, gi.soundindex("misc/power2.wav"), 1, ATTN_NORM, 0);
+			gi.bprintf(PRINT_HIGH, "Quedan 5 minutos de tiempo!\n");
+		}
 		if (level.time >= timelimit->value*60)
 		{
 			safe_bprintf (PRINT_HIGH, "Timelimit hit.\n");

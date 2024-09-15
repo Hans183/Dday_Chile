@@ -1190,15 +1190,21 @@ void CheckDMRules (void)
 		return;
 	}
 
-
+	
 
 	if (timelimit->value)
 	{
-		if (level.time - timelimit->value*60 >= 5)  // hans, agrega un aviso 5 minutos antes del time limit
+		static int aviso5minutos = 0;
+
+		if (timelimit->value * 60 - level.time == 300 && !aviso5minutos)  // 5 minutos = 300 segundos
 		{
-			//gi.sound(ent CHAN_AUTO, gi.soundindex("misc/power2.wav"), 1, ATTN_NORM, 0);
-			gi.bprintf(PRINT_HIGH, "Quedan 5 minutos de tiempo!\n");
+			gi.sound(NULL,CHAN_ITEM, gi.soundindex("misc/five_mins_remaining.wav"), 1, ATTN_NORM, 0);
+			centerprintall("¡Quedan 5 minutos de tiempo!\n");
+
+			// Marcar que ya se dio el aviso
+			aviso5minutos = 1;
 		}
+
 		if (level.time >= timelimit->value*60)
 		{
 			safe_bprintf (PRINT_HIGH, "Timelimit hit.\n");

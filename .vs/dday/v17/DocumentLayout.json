@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\5.40 chilensi\\Dday_Chile\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8DECFC3E-4BA5-410A-AFBA-2AAE729E2C06}|dday.vcxproj|C:\\5.40 chilensi\\Dday_Chile\\src\\g_main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8DECFC3E-4BA5-410A-AFBA-2AAE729E2C06}|dday.vcxproj|solutionrelative:src\\g_main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "g_main.c",
+              "DocumentMoniker": "C:\\5.40 chilensi\\Dday_Chile\\SRC\\g_main.c",
+              "RelativeDocumentMoniker": "SRC\\g_main.c",
+              "ToolTip": "C:\\5.40 chilensi\\Dday_Chile\\SRC\\g_main.c",
+              "RelativeToolTip": "SRC\\g_main.c",
+              "ViewState": "AgIAAKMEAAAAAAAAAAAqwLQEAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-13T00:30:13.503Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
